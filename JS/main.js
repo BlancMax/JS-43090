@@ -4,7 +4,7 @@ let claveGuardada = "1985";
 for(let i=2; i>=0; i--){
     let ingresoClave=prompt("Ingrese su clave. Tenés " + (i+1) + " oportunidades");
     if (ingresoClave===claveGuardada){
-        alert("Bienvenido a Compendios del Infinito, ya podes elegir tus gustos!!");
+        alert("Bienvenido a Comics World´s, ya podes elegir tus gustos!!");
         ingreso=true;
         break;
     }else{
@@ -46,5 +46,18 @@ if (ingreso){
 
 alert("Gracias por elegirnos! Te esperamos pronto con novedades...");
 }
+const articulos =[
+    {id: 1, nombre: "Comic Spider Man", precio: 1000, cat: "comic"},
+    {id: 2, nombre: "Comic Superman", precio: 1100, cat: "comic"},
+    {id: 3, nombre: "Comic X-Men", precio: 1300, cat: "comic"},
+    {id: 4, nombre: "Miniatura Spider Man", precio: 2500, cat: "miniatura"},
+    {id: 5, nombre: "Miniatura Superman", precio: 2550, cat: "miniatura"},
+    {id: 6, nombre: "Miniatura X-Men", precio: 3100, cat: "miniatura"},
+    {id: 7, nombre: "Juegos de Mesa Spider Man", precio: 5000, cat: "juegos de mesa"},
+    {id: 8, nombre: "Juegos de Mesa Superman", precio: 5200, cat: "juegos de mesa"},
+    {id: 9, nombre: "Juegos de Mesa X-Men", precio: 5700, cat: "juegos de mesa"},
+];
+
+
 ingresar ();
 
